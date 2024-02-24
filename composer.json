@@ -38,6 +38,7 @@
         "paypal/paypal-checkout-sdk": "1.0.1",
         "prettus/l5-repository": "^2.6",
         "tymon/jwt-auth": "1.0.x-dev",
+        "wontonee/paytm": "^4.0",
         "wontonee/razorpay": "^3.0"
     },
     "require-dev": {

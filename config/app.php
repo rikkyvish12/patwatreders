@@ -283,6 +283,7 @@ return [
         Webkul\DebugBar\Providers\DebugBarServiceProvider::class,
         Webkul\Marketing\Providers\MarketingServiceProvider::class,
         Wontonee\Razorpay\Providers\RazorpayServiceProvider::class,
+        Wontonee\Paytm\Providers\PaytmServiceProvider::class,
     ],
 
     /*

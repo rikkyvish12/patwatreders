@@ -1552,5 +1552,12 @@ return [
     ],
     'key-id'                      => 'Key Id',
     'key-secret'                      => 'Key Secret',
+    
+    'merchant-id'                      => 'Merchant Id',
+    'merchant-key'                      => 'Merchant Key',
+    'websitestatus'                      => 'Website',
+    'industrytype'                      => 'Industry Type',
+    'paytmstatus'                      => 'Status',
+    'callback-url'                      => 'Call Back URL'
 
 ];
