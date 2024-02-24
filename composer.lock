@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccff147e9075aa98e079edcfbeef9eff",
+    "content-hash": "bef25188ceeb5406f0251c7f6bd37ad5",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -8605,6 +8605,51 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
+        },
+        {
+            "name": "wontonee/paytm",
+            "version": "4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wontone18/paytm-payment-gateway-bagisto-laravel.git",
+                "reference": "6b83a23f921dd4aaefe47d730b11e954bb5f82d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wontone18/paytm-payment-gateway-bagisto-laravel/zipball/6b83a23f921dd4aaefe47d730b11e954bb5f82d9",
+                "reference": "6b83a23f921dd4aaefe47d730b11e954bb5f82d9",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wontonee\\Paytm\\Providers\\PaytmServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wontonee\\Paytm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saju G",
+                    "email": "saju.g@wontonetech.com"
+                }
+            ],
+            "description": "Paytm payment gateway for bagisto laravel ecommerce",
+            "support": {
+                "issues": "https://github.com/wontone18/paytm-payment-gateway-bagisto-laravel/issues",
+                "source": "https://github.com/wontone18/paytm-payment-gateway-bagisto-laravel/tree/4.0"
+            },
+            "time": "2021-09-02T09:32:38+00:00"
         },
         {
             "name": "wontonee/razorpay",
